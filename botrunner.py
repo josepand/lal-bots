@@ -6,6 +6,7 @@ import pokerbot
 import citabot
 import lutomlinbot
 
+default_run_bots = ['curve','poker','cds','lutomlin']
 bots = {}
 bot_threads = {}
 
@@ -48,5 +49,5 @@ def reload_bot(nick):
     refresh_bots()
     start_bot(nick)
     
-for nick, bot in bot_ref.iteritems():
+for nick in default_run_bots:
     start_bot(nick)
