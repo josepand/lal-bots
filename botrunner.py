@@ -6,7 +6,7 @@ import pokerbot
 import citabot
 import lutomlinbot
 
-default_run_bots = ['curve','poker','cds','lutomlin']
+default_run_bots = ['curve','poker','cds','lutomlin']#'mario'
 bots = {}
 bot_threads = {}
 
